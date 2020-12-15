@@ -1,0 +1,19 @@
+<h1>Lista de Materias</h1>
+<div>
+
+  <table border='1' width='100%' style='border-collapse: collapse;'>
+    <tr>
+      <th>Clave</th>
+      <th>Nombre</th>
+      <th>Creditos </th>
+    </tr>
+    <tr *ngFor="let materia of materias">
+      <td>{{ materia.cve }}</td>
+      <td>{{ materia.snombre }}</td>
+      <td>{{ materia.screditos }}</td>
+    </tr>
+  </table>
+  <br>
+
+
+</div>
